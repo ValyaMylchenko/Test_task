@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>TEST</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+    <div class="block">
+    <h1>ШІ для вирішення задач для дошкільнят</h1>
+    <div>Дана програма вирішення обмеженого класу задач з арифметики для дошкільнят.<br>
+        Клас задач про стіл на якому лежать фрукти, сторонні предмети та хлопчика, який або їсть (забирає) фрукти, або навпаки кладе додатково на стіл.<br>
+        Перше речення задачі - опис речей на столі. <br>
+        Друге - що зробив хлопчик.<br>
+        Трете, четверте і т д – питання задачі, починаються зі слова "Скільки". <br>
+        Наразі програма працює з такими предметами: <span id='objects'></span>
+        Наразі програма розпізнає такі дії: <span id='actions'></span>
+    </div> 
+    <div class="main">
+    <textarea id="task" placeholder="Напишіть свою задачу тут"></textarea>
+    <button id="button">Take</button>
+</div>
+    <div class="block-answers">
+    <h3>Відповідь: </h3>
+    <div id="answers"></div>
+</div>
+</div>
+    <script src="index.js" ></script>
+</body>

@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(248, 250, 234);
+}
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+#task {
+    resize: none;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    background-color: rgb(243, 236, 237);
+}
+#button {
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(125, 173, 119);
+}
+.main {
+    display: inherit;
+    align-items: center;
+    margin-top: 10px;
+}
+span {
+    color: rgb(74, 16, 180);
+}
+.block-answers {
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+}
